@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>서울시 - 내 손안에 서울</title>
+    <!-- 내손안에서울 주소  http://mediahub.seoul.go.kr/   http://mediahub.seoul.go.kr/m-portal -->
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon-precomposed" href="">
+    <!-- 웹폰트 -->
+        <!-- font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'Gothic A1', sans-serif;
+            font-family: 'Allura', cursive;
+            font-family: 'Roboto', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900|Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura&display=swap&subset=latin-ext" rel="stylesheet">
+    <!-- 스크립트 -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+    </script>
+    <!-- 스타일 -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="side_bar">
+            <div class="close_btn"><span>X</span></div>
+            <ul>
+                <li><a href="index.html"><span></span>내손안에서울</a></li>
+                <li><a href="#">뉴스</a></li>
+                <li><a href="#">영상</a></li>
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">어린이신문</a></li>
+                <li><a href="#">정책</a></li>
+                <li><a href="#">SNS</a></li>
+                <li><a href="#">시민기자</a></li>
+            </ul>
+            <div class="login_btn">
+                <a href="#">로그인</a>
+            </div>
+        </div>
+        <button id="top_btn">TOP</button>
+        
+        <!-- header -->
+        <header class="">
+            <div>
+                <div class="row head01">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="서울특별시 로고">
+                    </div>
+                    <div class="notic">
+                        <img src="images/notic_icon.png" alt="공지사항">
+                        <a href="#">
+                            서울식물원 이이남, 빛의 조우 기획전시
+                        </a>
+                    </div>
+                    <div class="head01_nav">
+                        <ul>
+                            <li>서울소식</li>
+                            <li>응답소</li>
+                            <li>정보공개</li>
+                            <li>분야별정보</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row head02">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/seoul.kr" target="blank">
+                                <img src="images/main_sns01.png" alt="페이스북">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/seoulmania" target="blank">
+                                <img src="images/main_sns02.png" alt="트위터">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/seoul_official/" target="blank">
+                                <img src="images/main_sns03.png" alt="인스타그램">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://story.kakao.com/ch/seoul" target="blank">
+                                <img src="images/main_sns04.png" alt="카카오스토리">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/seoullive/featured" target="blank">
+                                <img src="images/main_sns05.png" alt="유투브">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://blog.naver.com/haechiseoul" target="blank">
+                                <img src="images/main_sns06.png" alt="블로그">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="weather">
+                        <p>초미세먼지
+                            <img src="images/weather.svg" alt="보통얼굴아이콘">
+                            <span>보통</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row head03">
+                    <div class="menu_tog_btn">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>    
+                    <a href="#"><img src="images/header1.png" alt="광화문광장조성 공개토론회"></a>
+                    <a href="index.html"><img src="images/header_logo.png" alt="내 손안에 서울"></a>
+                    <a href="#"><img src="images/search_icon03.png" alt="검색아이콘"></a>
+                </div>
+            </div>
+            <div>
+                <div class="row head04">
+                    <ul class="head04_nav">
+                        <li>
+                            <a href="#">추천</a>
+                        </li>
+                        <li>
+                            <a href="#">뉴스</a>
+                        </li>
+                        <li>
+                            <a href="#">영상</a>
+                        </li>
+                        <li>
+                            <a href="#">소식지</a>
+                        </li>
+                        <li>
+                            <a href="#">정책</a>
+                        </li>
+                        <li>
+                            <a href="#">시민기자</a>
+                        </li>
+                        <li>
+                            <a href="#">공모전</a>
+                        </li>
+                        <li>
+                            <a href="#">SNS</a>
+                        </li>
+                    </ul>
+                    <div class="head_family_site">
+                        <p class="select01">Family Site <span>▼</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="head_family_list">
+                <ul class="row">
+                    <li><a href="#">응답소</a></li>
+                    <li><a href="#">민주주의 서울</a></li>
+                    <li><a href="#">정보소통광장</a></li>
+                    <li><a href="#">열린데이터광장</a></li>
+                    <li><a href="#">부동산정보광장</a></li>
+                    <li><a href="#">공공서비스예약</a></li>
+                    <li><a href="#">보육포털</a></li>
+                    <li><a href="#">일자리포털</a></li>
+                    <li><a href="#">문화포톨</a></li>
+                    <li><a href="#">평생학습포털</a></li>
+                    <li><a href="#">청년포털</a></li>
+                    <li><a href="#">대기환경정보</a></li>
+                    <li><a href="#">에코마일리지</a></li>
+                    <li><a href="#">스마트서울맵</a></li>
+                    <li><a href="#">소셜시장실</a></li>
+                    <li><a href="#">시민참여예산</a></li>
+                    <li><a href="#">여론조사</a></li>
+                    <li><a href="#">엠보팅</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- section banner01 -->
+        <section class="row banner01">
+            <div class="banner_left">
+                <a href="#">
+                    <img src="images/banner_top01.png" alt="부동산 초보도 OK! 공공주거정보 총망라 '서울주거포털'">
+                    <span>부동산 초보도 OK! 공공주거정보 총망라 '서울주거포털'</span>
+                </a>
+            </div>
+            <div class="banner_right">
+                <div>
+                    <div class="banner_r01 banner_r02">
+                        <a href="#">
+                            <img src="images/banner_top02.png" alt="녹색교통지역 차량운행제한">
+                            <span>
+                                <img src="images/banner_0222.png" alt="문서 그림">
+                                녹색교통지역<br>차량운행제한
+                            </span>
+                        </a>
+                    </div>
+                    <div class="banner_r01">
+                        <a href="#">
+                            <img src="images/banner_top03.png" alt="나지막이 불러본다, 나의 한강">
+                            <span>
+                                나지막이 불러본다,<br>나의 한강
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/banner_top04.png" alt="하늘에서 바라본 아찔하고도 경이로운 풍경, 남산+북한산">
+                        <span>하늘에서 바라본 아찔하고도 경이로운 풍경, 남산+북한산</span>
+                        <div class="imgbox01">
+                            <img src="images/imgbox01.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- section container -->
+        <section class="row container">
+            <div class="container_box">
+                <h2>추천콘텐츠</h2>
+                <img src="images/container_box.png" alt="오른쪽화살표">
+                <ul class="container_nav">
+                    <li class="con_n_btn01">전체</li>
+                    <li class="con_n_btn02">뉴스</li>
+                    <li class="con_n_btn03">영상</li>
+                    <li class="con_n_btn04">소식지</li>
+                </ul>
+            </div>
+            <!-- 추천콘텐츠 전체 -->
+            <div class="container_list">
+                <ul class="con_img01">
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img01.png" alt="'DDP디자인페어' 참신+실용 디자인 제품 만나볼까?">
+                            <div>
+                                <span>'DDP디자인페어' 참신+실용 디자인 제품 만나볼까?...</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 12일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img09.jpg" alt="서울시 5가구 중 1가구 '반려동물과 산다'">
+                            <div>
+                                <span>서울시 5가구 중 1가구 '반려동물과 산다'</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img03.jpg" alt="'미세먼지 시즌제' 지하철역 등 실내공기질 특별점검">
+                            <div>
+                                <span>'미세먼지 시즌제' 지하철역 등 실내공기질 특별점검</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img04.png" alt="키워드로 정리해본 2010년대의 삶">
+                            <div>
+                                <span>키워드로 정리해본 2010년대의 삶</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 소식지</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img05.jpg" alt="쇼핑 중독 해치, 홍대아이서울유 팝업스토어에 떴다!">
+                            <div>
+                                <span>쇼핑 중독 해치, 홍대아이서울유 팝업스토어에 떴다!</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 영상</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img06.jpg" alt="이주여성 가정폭력 문제 논의 '서울 인권 콘퍼런스'">
+                            <div>
+                                <span>이주여성 가정폭력 문제 논의 '서울 인권 콘퍼런스'</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img07.jpg" alt="무한대의 즐거움 '마을미디어'축제 열린다">
+                            <div>
+                                <span>무한대의 즐거움 '마을미디어'축제 열린다</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img08.png" alt="서울케어 브랜드 이야기">
+                        </a>
+                        <img src="images/care_over.png" alt="가족어깨동무">
+                        <div class="con_img_txt">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 추천콘텐츠 뉴스 -->
+            <div class="container_list">
+                <ul class="con_img01">
+                    <li>
+                        <a href="#">
+                            <img src="images/con_new01.jpg" alt="세모종이란?...겨레말큰사전 평양 친구에게 물어보세요">
+                            <div>
+                                <span>"세모종이란?"...'겨레말큰사전' 평양 친구에게 물어보세요</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 문화</p>
+                            <span>2019년 12월 6일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_new02.jpg" alt="딱 4일간 서울식물원 야간개방 사전예약은 9일부터">
+                            <div>
+                                <span>딱 4일간! 서울식물원 야간개방···사전예약은 9일부터</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 문화</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_new03.jpg" alt="서울시 5가구 중 1가구 반려동물과 산다">
+                            <div>
+                                <span>서울시 5가구 중 1가구 "반려동물과 산다"</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 복지</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_new04.jpg" alt="노벨평화상 수상자들 서울 온다 내년 월드서밋 유치">
+                            <div>
+                                <span>"노벨평화상 수상자들 서울 온다" 내년 월드서밋 유치</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 문화</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_new05.jpg" alt="7일 새로운 광화문광장 시민 300명 마라톤 토론회">
+                            <div>
+                                <span>7일 '새로운 광화문광장' 시민 300명 마라톤 토론회</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 정책</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_new06.jpg" alt="두둥 신규 브랜드 서울메이드 론칭">
+                            <div>
+                                <span>두둥! 신규 브랜드 '서울메이드' 론칭</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 복지</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_new07.jpg" alt="부모님 생각 절로 효심 가득한 장소 2곳">
+                            <div>
+                                <span>부모님 생각 절로! 효심 가득한 장소 2곳</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 복지</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img08.png" alt="서울케어 브랜드 이야기">
+                        </a>
+                        <img src="images/care_over.png" alt="가족어깨동무">
+                        <div class="con_img_txt">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 추천콘텐츠 영상 -->
+            <div class="container_list">
+                <ul class="con_img01">
+                    <li>
+                        <a href="#">
+                            <img src="images/con_vid01.jpg" alt="군침 도는 동대문 생선 거리에 외국인이 떴다">
+                            <div>
+                                <span>군침 도는 동대문 생선 거리에 외국인이 떴다!</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 외국인코리아</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_vid02.png" alt="2020 노벨평화수상자 월드서밋 서울 개최">
+                            <div>
+                                <span>2020 노벨평화수상자 월드서밋 서울 개최</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 기자브리핑</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_vid03.jpg" alt="종교의 역사 탐방! 서소문 성지 역사 박물관">
+                            <div>
+                                <span>종교의 역사 탐방! 서소문 성지 역사 박물관</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 채널폴리</p>
+                            <span>2019년 12월 4일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_vid04.png" alt="새로운 광화문광장 조성 관련 4차 공개 토론회">
+                            <div>
+                                <span>새로운 광화문광장 조성 관련 4차 공개 토론회</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 특집행사</p>
+                            <span>2019년 12월 4일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_vid05.jpg" alt="지친 하루 속 나의 쉼터 서울 생각 마루">
+                            <div>
+                                <span>지친 하루 속 나의 쉼터 서울 생각 마루</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 영상</p>
+                            <span>2019년 12월 3일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_vid06.png" alt="On Seoul Safe 프로젝트 출범식">
+                            <div>
+                                <span>On Seoul Safe 프로젝트 출범식</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_vid07.png" alt="서울의료원 혁신방안 발표">
+                            <div>
+                                <span>서울의료원 혁신방안 발표</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 기자브리핑</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img08.png" alt="서울케어 브랜드 이야기">
+                        </a>
+                        <img src="images/care_over.png" alt="가족어깨동무">
+                        <div class="con_img_txt">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 추천콘텐츠 소식지 -->
+            <div class="container_list">
+                <ul class="con_img01">
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img01.png" alt="'DDP디자인페어' 참신+실용 디자인 제품 만나볼까?">
+                            <div>
+                                <span>'DDP디자인페어' 참신+실용 디자인 제품 만나볼까?...</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 12일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img09.jpg" alt="서울시 5가구 중 1가구 '반려동물과 산다'">
+                            <div>
+                                <span>서울시 5가구 중 1가구 '반려동물과 산다'</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img03.jpg" alt="'미세먼지 시즌제' 지하철역 등 실내공기질 특별점검">
+                            <div>
+                                <span>'미세먼지 시즌제' 지하철역 등 실내공기질 특별점검</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 5일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img04.png" alt="키워드로 정리해본 2010년대의 삶">
+                            <div>
+                                <span>키워드로 정리해본 2010년대의 삶</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 소식지</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img05.jpg" alt="쇼핑 중독 해치, 홍대아이서울유 팝업스토어에 떴다!">
+                            <div>
+                                <span>쇼핑 중독 해치, 홍대아이서울유 팝업스토어에 떴다!</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 영상</p>
+                            <span>2019년 12월 2일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img06.jpg" alt="이주여성 가정폭력 문제 논의 '서울 인권 콘퍼런스'">
+                            <div>
+                                <span>이주여성 가정폭력 문제 논의 '서울 인권 콘퍼런스'</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 12일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img07.jpg" alt="무한대의 즐거움 '마을미디어'축제 열린다">
+                            <div>
+                                <span>무한대의 즐거움 '마을미디어'축제 열린다</span>
+                            </div>
+                        </a>
+                        <div class="con_img_txt">
+                            <p>· 뉴스</p>
+                            <span>2019년 12월 12일</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/con_img08.png" alt="서울케어 브랜드 이야기">
+                        </a>
+                        <img src="images/care_over.png" alt="가족어깨동무">
+                        <div class="con_img_txt">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- section container02 -->
+        <section class="row container02">
+            <div class="sns_img">
+                <img src="images/img_sns.png" alt="sns 이미지">
+            </div>
+            <div class="policy">
+                <h2>한눈에 보는 서울시 정책</h2>
+                <div class="policy_target">
+                    <div class="policy_tit">
+                        <h3>대상별</h3>
+                    </div>
+                    <ul>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_01.png" alt="영유아">
+                            <p>영유아</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_02.png" alt="아동">
+                            <p>아동</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_03.png" alt="청소년">
+                            <p>청소년</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_04.png" alt="청년">
+                            <p>청년</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_05.png" alt="중장년">
+                            <p>중장년</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_06.png" alt="어르신">
+                            <p>어르신</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_07.png" alt="취약계층">
+                            <p>취약계층</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_08.png" alt="장애인">
+                            <p>장애인</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="policy_target interest">
+                    <div class="policy_tit">
+                        <h3>관심분야별</h3>
+                    </div>
+                    <ul class="inter">
+                        <li class="bag_img01">
+                            <img src="images/ico_character_11.png" alt="복지">
+                            <p>복지</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_12.png" alt="건강">
+                            <p>건강</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_13.png" alt="문화">
+                            <p>문화</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_14.png" alt="경제">
+                            <p>경제</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_15.png" alt="교통">
+                            <p>교통</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_16.png" alt="교육">
+                            <p>교육</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_17.png" alt="안전">
+                            <p>안전</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_18.png" alt="환경">
+                            <p>환경</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_19.png" alt="주택">
+                            <p>주택</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_20.png" alt="건축">
+                            <p>건축</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_21.png" alt="세금">
+                            <p>세금</p>
+                        </li>
+                        <li class="bag_img01">
+                            <img src="images/ico_character_22.png" alt="행정">
+                            <p>행정</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cont2_btn">
+                    <p>·중복 선택이 가능합니다</p>
+                    <button><a href="#">결과보기</a></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- mobile banner -->
+        <div class="mobile_banner">
+            <img src="images/header1.png" alt="새로운 광화문광장 조성 관련 공개토론회">
+        </div>
+
+        <!-- section banner02 -->
+        <section class="row banner02">
+            <h2>함께해요! 이벤트</h2>
+            <ul class="event_banner">
+                <li>
+                    <h3>시민소통</h3>
+                    <p>2019-11-14~2019-12-08</p>
+                    <a href="#"><img src="images/event_banner01.png" alt="시민소통"></a>
+                </li>
+                <li>
+                    <h3>NPO 센터</h3>
+                    <p>2019-12-01~2019-12-30</p>
+                    <a href="#"><img src="images/event_banner02.png" alt="NPO 센터"></a>
+                </li>
+                <li>
+                    <h3>광화문광장</h3>
+                    <p>2019-10-17~2019-12-30</p>
+                    <a href="#"><img src="images/event_banner03.png" alt="광화문광장"></a>
+                </li>
+                <li>
+                    <h3>제로페이</h3>
+                    <p>2019-09-26~2019-12-31</p>
+                    <a href="#"><img src="images/event_banner04.png" alt="제로페이"></a>
+                </li>
+                <li>
+                    <h3>민주주의서울</h3>
+                    <p>2019-10-22~2019-12-31</p>
+                    <a href="#"><img src="images/event_banner05.png" alt="민주주의서울"></a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- section banner03 -->
+        <section class="row banner03">
+            <h2>도전해요! 공모전</h2>
+            <ul>
+                <li><a href="#"><img src="images/banner03_01.jpg" alt="제6회 서울 29초영화제"></a></li>
+                <li><a href="#"><img src="images/banner03_02.jpg" alt="취업안착 우수사례 공모전"></a></li>
+                <li><a href="#"><img src="images/banner03_03.jpg" alt="SID 잠실운동장 스토리 공모전"></a></li>
+                <li><a href="#"><img src="images/banner03_04.jpg" alt="과거와 현재 사진공모전"></a></li>
+            </ul>
+        </section>
+
+        <section class="row banner04">
+            <a href="#"><img src="images/banner04.png" alt="달리는 서울버스 무료 와이파이로"></a>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="row footer_top">
+                <ul>
+                    <li>
+                        <h2>내 손안에 서울</h2>
+                    </li>
+                    <li>
+                        <h4><a href="#">뉴스</a></h4>
+                        <ul>
+                            <li><a href="#">기획/이슈</a></li>
+                            <li><a href="#">전문칼럼</a></li>
+                            <li><a href="#">분야별뉴스</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">포토</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4><a href="#">영상</a></h4>
+                        <ul>
+                            <li><a href="#">서울온에어</li></a></li>
+                            <li><a href="#">기획영상</li></a></li>
+                            <li><a href="#">자치구방송</li></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4><a href="#">소식지</a></h4>
+                        <ul>
+                            <li><a href="#">서울사랑</a></li>
+                            <li><a href="#">내친구서울</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4><a href="#">시민참여</a></h4>
+                        <ul>
+                            <li><a href="#">시민기자</a></li>
+                            <li><a href="#">어린이기자</a></li>
+                            <li><a href="#">영상크리에이터</a></li>
+                            <li><a href="#">미디어메이트</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <h4><a href="#">정책</a></h4>
+                        <h4><a href="#">공모전</a></h4>
+                        <h4><a href="#">SNS</a></h4>
+                    </li>
+                    <li>
+                        <div class="googleplay">
+                            Google Play
+                        </div>
+                        <div class="appstore">
+                            App Strore
+                        </div>
+                        <a href="#"><img src="images/footer_img.png" alt="녹색교통지역 차량운행제한"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile_footer_img">
+                <img src="images/footer_img.png" alt="녹색교통지역 차량운행제한">
+            </div>
+            <div class="footer_bottom">
+                <div class="row">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일 무단수집 거부</a></li>
+                        <li><a href="#">뉴스레터 구독신청</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                    <ul>
+                        <li>서울특별시청 04524 서울특별시 중구 세종대로 110</li>
+                        <li>뉴미디어담당관</li>
+                        <li>대표전화 다산콜센터 02-120</li>
+                    </ul>
+                    <p>ⓒ 2019. Seoul Metropolitan Government all rights reserved.</p>
+                </div>    
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
