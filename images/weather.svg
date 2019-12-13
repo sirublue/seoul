@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="148px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>ico_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ico_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <circle id="Oval" fill="#95CC26" cx="75.5" cy="72.5" r="70.5"></circle>
+            <path d="M73.999,0 C33.196,0 0,33.196 0,73.999 C0,114.802 33.196,147.998 73.999,147.998 C114.802,147.998 147.998,114.802 147.998,73.999 C147.998,33.196 114.8025,0 73.999,0 L73.999,0 Z M73.999,139.998 C55.8705,139.998 39.4275,132.65 27.4875,120.778 C22.7195,116.037 18.672,110.573 15.5205,104.568 C10.721,95.4235 8,85.024 8,73.999 C8,37.607 37.607,8 73.999,8 C91.2605,8 106.9925,14.664 118.7655,25.551 C124.8695,31.195 129.91,37.973 133.5445,45.5495 C137.6795,54.1685 139.998,63.818 139.998,73.999 C139.998,110.391 110.391,139.998 73.999,139.998 L73.999,139.998 Z" id="Shape" fill="#95CC26"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="49.2485" cy="57.999" r="8"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="98.7485" cy="57.999" r="8"></circle>
+            <rect id="Rectangle-path" fill="#FFFFFF" x="58" y="93" width="33" height="8"></rect>
+        </g>
+    </g>
+</svg>
